@@ -6,7 +6,7 @@ const CuddleScene = (props) => {
   const { onComplete } = props;
   console.log('CuddleScene props:', props);
   const [breathingPhase, setBreathingPhase] = useState('inhale');
-  const { scale, opacity } = useBreathing(4000);
+  const { scale, opacity } = useBreathing(6000);
   const [blanketWrap, setBlanketWrap] = useState(0);
 
   useEffect(() => {
